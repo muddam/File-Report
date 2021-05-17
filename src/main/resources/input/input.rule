@@ -1,0 +1,4 @@
+contractId|arggregate|customerId|unique-count
+geozone|arggregate|customerId|unique-count
+geozone|arggregate|customerId|unique-values
+geozone|arggregate|buildduration|average

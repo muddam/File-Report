@@ -1,0 +1,6 @@
+customerId|Integer
+contractId|Integer
+geozone|String
+teamcode|String
+projectcode|String
+buildduration|String
