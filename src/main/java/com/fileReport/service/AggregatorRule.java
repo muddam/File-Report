@@ -16,6 +16,13 @@ public class AggregatorRule {
     public String getArgRule() {
         return argRule;
     }
+    public boolean isUnique(){
+        return this.getArgRule().equals("unique-count") || this.getArgRule().equals("unique-values");
+
+    }
+    public boolean isAverage(){
+       return this.getArgRule().equals("average");
+    }
 
     public void setArgRule(String argRule) {
         this.argRule = argRule;
@@ -24,6 +31,7 @@ public class AggregatorRule {
     public void setKeyName(String keyName) {
         this.keyName = keyName;
     }
+
 
     @Override
     public String toString() {
